@@ -20,7 +20,7 @@ import com.nus.integration.Service.ServiceDemo;
 
 public class MyServiceActivity extends AppCompatActivity{
 
-    //not want to try
+    //It can work now
     private MyConnection myConnection;
     private Intent intent;
     private IMyBinder myBinder;
