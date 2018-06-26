@@ -20,6 +20,7 @@ import com.nus.integration.Service.ServiceDemo;
 
 public class MyServiceActivity extends AppCompatActivity{
 
+    //let me try
     private MyConnection myConnection;
     private Intent intent;
     private IMyBinder myBinder;
