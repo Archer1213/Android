@@ -1,12 +1,13 @@
 package com.nus.integration.Activity;
 
+import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
 import android.view.View;
 
@@ -18,7 +19,7 @@ import com.nus.integration.Service.ServiceDemo;
  * Created by XRVision Acer on 25/6/2018.
  */
 
-public class MyServiceActivity extends AppCompatActivity{
+public class MyServiceActivity extends Activity{
 
     //It can work now
     private MyConnection myConnection;
